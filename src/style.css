@@ -7,7 +7,11 @@
   padding: 10px 30px;
   justify-content: space-between;
   font-family: sans-serif;
-
+  position: fixed;
+  width: 97%;
+  top: 0;
+  left:0;
+  z-index: 1000;
   /* position: fixed;      
   top: 0;           
   left: 0;
@@ -75,6 +79,7 @@
     font-family: 'Arial', sans-serif; 
     margin: 30px 0 20px 0;
     padding-left: 64px;
+    padding-top: 36px;
   }
 
 
