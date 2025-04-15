@@ -1,5 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /*  HEADER.css  */
-.header {
+/* .header {
   background-color: #1e1e1e;
   color: white;
   display: flex;
@@ -12,29 +17,24 @@
   top: 0;
   left:0;
   z-index: 1000;
-  /* position: fixed;      
-  top: 0;           
-  left: 0;
-  width: 100%;          
-  z-index: 1000;          */
-}
+} */
 
   
-  .logo {
+  /* .logo {
     padding-left: 34px;
     font-size: 24px;
     font-weight: bold;
-  }
+  } */
   
-  .logo-gray {
+  /* .logo-gray {
     color: #ccc;
   }
   
   .logo-orange {
     color: #ff6d00;
   }
-  
-  .search-container {
+   */
+  /* .search-container {
     display: flex;
     align-items: center;
     background-color: white;
@@ -54,16 +54,16 @@
   .search-icon {
     color: #555;
     font-size: 16px;
-  }
+  } */
   
-  .icons {
+  /* .icons {
     display: flex;
     gap: 18px;
     align-items: center;
     font-size: 18px;
   }
-  
-  .login-btn {
+   */
+  /* .login-btn {
     background-color: #333;
     border-radius: 20px;
     padding: 6px 12px;
@@ -71,8 +71,8 @@
     align-items: center;
     gap: 5px;
     font-size: 14px;
-  }
-  .recommended{
+  } */
+  /* .recommended{
     font-size: 24px;
     font-weight: 400;
     color: #333;
@@ -80,13 +80,13 @@
     margin: 30px 0 20px 0;
     padding-left: 64px;
     padding-top: 36px;
-  }
+  } */
 
 
   
   /* ProductCard.css */
 
-  .product-card {
+  /* .product-card {
     width: 280px;
     border: 1px solid #eee;
     border-radius: 12px;
@@ -100,9 +100,9 @@
   
   .product-card:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  }
+  } */
   
-  .product-image img {
+  /* .product-image img {
     width: 100%;
     height: auto;
     border-radius: 6px;
@@ -146,9 +146,9 @@
     padding: 2px 6px;
     border-radius: 4px;
     display: inline-block;
-  }
+  } */
   
-  .heart-icon {
+  /* .heart-icon {
     position: absolute;
     top: 251px;
     right: 12px;
@@ -170,10 +170,10 @@
   .heart-icon:hover {
     transform: scale(1.05);
     color: #ff4d4f;
-  }
+  } */
   
   /* App.css */
-
+/* 
   .product-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);  
@@ -182,5 +182,5 @@
     padding: 30px 0;
     margin: 0 auto;  
     max-width: fit-content;
-  }
+  } */
   
