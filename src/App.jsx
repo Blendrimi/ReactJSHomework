@@ -1,13 +1,19 @@
-import Header from "./Components/Header"
+import React, { useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Header from "./Components/Header";
 import Products from "./Pages/Products";
-import './style.css';
+import ProductDetails from "./Pages/ProductDetails";
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <>
-     <Header />
-    <h1 className="recommended">Të rekomanduara</h1>
-    <Products/>
+      <Header searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+      <Routes>
+        <Route path="/" element={<Products searchTerm={searchTerm} />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
+      </Routes>
     </>
   );
 }
